@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "name": "kamikaze-clothing",
-  "builds": [
-    {
-      "src": "**/*.html",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "devCommand": null,
+  "installCommand": null,
+  "framework": null
 }
