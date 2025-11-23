@@ -1,0 +1,12 @@
+{
+  "name": "kamikaze-clothing",
+  "version": "1.0.0",
+  "description": "Luxury streetwear brand website",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "build": "echo 'No build process needed for static site'"
+  },
+  "keywords": ["fashion", "ecommerce", "streetwear"],
+  "author": "KAZE",
+  "license": "MIT"
+}
