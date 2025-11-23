@@ -1,12 +1,11 @@
 {
   "name": "kamikaze-clothing",
   "version": "1.0.0",
-  "description": "Luxury streetwear brand website",
+  "description": "KAMIKAZE Clothing Brand Website",
+  "type": "module",
   "scripts": {
-    "dev": "python -m http.server 3000",
-    "build": "echo 'No build process needed for static site'"
+    "dev": "python3 -m http.server 3000",
+    "build": "echo 'No build process needed' && exit 0"
   },
-  "keywords": ["fashion", "ecommerce", "streetwear"],
-  "author": "KAZE",
-  "license": "MIT"
+  "static": true
 }
