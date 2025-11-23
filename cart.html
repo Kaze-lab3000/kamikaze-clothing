@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | KAMIKAZE</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">KAMIKAZE</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="cart.html" class="nav-link cart-icon">
+                    Cart <span class="cart-count">0</span>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="cart-page">
+        <section class="cart-hero">
+            <div class="container">
+                <h1>YOUR CART</h1>
+                <p>Review your selected items</p>
+            </div>
+        </section>
+
+        <section class="cart-content">
+            <div class="container">
+                <div class="cart-container">
+                    <div class="cart-items">
+                        <!-- Cart items loaded via JavaScript -->
+                    </div>
+                    
+                    <div class="cart-summary">
+                        <h3>ORDER SUMMARY</h3>
+                        <div class="summary-line">
+                            <span>Subtotal</span>
+                            <span class="cart-subtotal">$0</span>
+                        </div>
+                        <div class="summary-line">
+                            <span>Shipping</span>
+                            <span>Calculated at checkout</span>
+                        </div>
+                        <div class="summary-line total">
+                            <span>Total</span>
+                            <span class="cart-total">$0</span>
+                        </div>
+                        <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+                        <a href="shop.html" class="continue-shopping">Continue Shopping</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>KAMIKAZE</h3>
+                    <p>Luxury streetwear for the disciplined rebel.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>NAVIGATION</h4>
+                    <a href="shop.html">Shop</a>
+                    <a href="about.html">About</a>
+                    <a href="#">Lookbook</a>
+                </div>
+                <div class="footer-section">
+                    <h4>SUPPORT</h4>
+                    <a href="#">Contact</a>
+                    <a href="#">Shipping</a>
+                    <a href="#">Returns</a>
+                </div>
+                <div class="footer-section">
+                    <h4>CONNECT</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">TikTok</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KAMIKAZE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/animations.js"></script>
+</body>
+</html>
